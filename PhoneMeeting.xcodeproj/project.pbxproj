@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18ACDF4D1B1EE3D100C73539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF4C1B1EE3D100C73539 /* Foundation.framework */; };
+		18ACDF4F1B1EE3D100C73539 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF4E1B1EE3D100C73539 /* CoreGraphics.framework */; };
+		18ACDF511B1EE3D100C73539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF501B1EE3D100C73539 /* UIKit.framework */; };
+		18ACDF571B1EE3D100C73539 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF551B1EE3D100C73539 /* InfoPlist.strings */; };
+		18ACDF591B1EE3D100C73539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACDF581B1EE3D100C73539 /* main.m */; };
+		18ACDF5D1B1EE3D100C73539 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACDF5C1B1EE3D100C73539 /* ZYAppDelegate.m */; };
+		18ACDF5F1B1EE3D100C73539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF5E1B1EE3D100C73539 /* Images.xcassets */; };
+		18ACDF661B1EE3D100C73539 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF651B1EE3D100C73539 /* XCTest.framework */; };
+		18ACDF671B1EE3D100C73539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF4C1B1EE3D100C73539 /* Foundation.framework */; };
+		18ACDF681B1EE3D100C73539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF501B1EE3D100C73539 /* UIKit.framework */; };
+		18ACDF701B1EE3D100C73539 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF6E1B1EE3D100C73539 /* InfoPlist.strings */; };
+		18ACDF721B1EE3D100C73539 /* PhoneMeetingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACDF711B1EE3D100C73539 /* PhoneMeetingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18ACDF691B1EE3D100C73539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18ACDF411B1EE3D100C73539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18ACDF481B1EE3D100C73539;
+			remoteInfo = PhoneMeeting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18ACDF491B1EE3D100C73539 /* PhoneMeeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneMeeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ACDF4C1B1EE3D100C73539 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18ACDF4E1B1EE3D100C73539 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18ACDF501B1EE3D100C73539 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18ACDF541B1EE3D100C73539 /* PhoneMeeting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneMeeting-Info.plist"; sourceTree = "<group>"; };
+		18ACDF561B1EE3D100C73539 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18ACDF581B1EE3D100C73539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18ACDF5A1B1EE3D100C73539 /* PhoneMeeting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneMeeting-Prefix.pch"; sourceTree = "<group>"; };
+		18ACDF5B1B1EE3D100C73539 /* ZYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
+		18ACDF5C1B1EE3D100C73539 /* ZYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
+		18ACDF5E1B1EE3D100C73539 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18ACDF641B1EE3D100C73539 /* PhoneMeetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneMeetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ACDF651B1EE3D100C73539 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18ACDF6D1B1EE3D100C73539 /* PhoneMeetingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneMeetingTests-Info.plist"; sourceTree = "<group>"; };
+		18ACDF6F1B1EE3D100C73539 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18ACDF711B1EE3D100C73539 /* PhoneMeetingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneMeetingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18ACDF461B1EE3D100C73539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ACDF4F1B1EE3D100C73539 /* CoreGraphics.framework in Frameworks */,
+				18ACDF511B1EE3D100C73539 /* UIKit.framework in Frameworks */,
+				18ACDF4D1B1EE3D100C73539 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ACDF611B1EE3D100C73539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ACDF661B1EE3D100C73539 /* XCTest.framework in Frameworks */,
+				18ACDF681B1EE3D100C73539 /* UIKit.framework in Frameworks */,
+				18ACDF671B1EE3D100C73539 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18ACDF401B1EE3D100C73539 = {
+			isa = PBXGroup;
+			children = (
+				18ACDF521B1EE3D100C73539 /* PhoneMeeting */,
+				18ACDF6B1B1EE3D100C73539 /* PhoneMeetingTests */,
+				18ACDF4B1B1EE3D100C73539 /* Frameworks */,
+				18ACDF4A1B1EE3D100C73539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18ACDF4A1B1EE3D100C73539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18ACDF491B1EE3D100C73539 /* PhoneMeeting.app */,
+				18ACDF641B1EE3D100C73539 /* PhoneMeetingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18ACDF4B1B1EE3D100C73539 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18ACDF4C1B1EE3D100C73539 /* Foundation.framework */,
+				18ACDF4E1B1EE3D100C73539 /* CoreGraphics.framework */,
+				18ACDF501B1EE3D100C73539 /* UIKit.framework */,
+				18ACDF651B1EE3D100C73539 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18ACDF521B1EE3D100C73539 /* PhoneMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				18ACDF5B1B1EE3D100C73539 /* ZYAppDelegate.h */,
+				18ACDF5C1B1EE3D100C73539 /* ZYAppDelegate.m */,
+				18ACDF5E1B1EE3D100C73539 /* Images.xcassets */,
+				18ACDF531B1EE3D100C73539 /* Supporting Files */,
+			);
+			path = PhoneMeeting;
+			sourceTree = "<group>";
+		};
+		18ACDF531B1EE3D100C73539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18ACDF541B1EE3D100C73539 /* PhoneMeeting-Info.plist */,
+				18ACDF551B1EE3D100C73539 /* InfoPlist.strings */,
+				18ACDF581B1EE3D100C73539 /* main.m */,
+				18ACDF5A1B1EE3D100C73539 /* PhoneMeeting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18ACDF6B1B1EE3D100C73539 /* PhoneMeetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				18ACDF711B1EE3D100C73539 /* PhoneMeetingTests.m */,
+				18ACDF6C1B1EE3D100C73539 /* Supporting Files */,
+			);
+			path = PhoneMeetingTests;
+			sourceTree = "<group>";
+		};
+		18ACDF6C1B1EE3D100C73539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18ACDF6D1B1EE3D100C73539 /* PhoneMeetingTests-Info.plist */,
+				18ACDF6E1B1EE3D100C73539 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18ACDF481B1EE3D100C73539 /* PhoneMeeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18ACDF751B1EE3D100C73539 /* Build configuration list for PBXNativeTarget "PhoneMeeting" */;
+			buildPhases = (
+				18ACDF451B1EE3D100C73539 /* Sources */,
+				18ACDF461B1EE3D100C73539 /* Frameworks */,
+				18ACDF471B1EE3D100C73539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneMeeting;
+			productName = PhoneMeeting;
+			productReference = 18ACDF491B1EE3D100C73539 /* PhoneMeeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18ACDF631B1EE3D100C73539 /* PhoneMeetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18ACDF781B1EE3D100C73539 /* Build configuration list for PBXNativeTarget "PhoneMeetingTests" */;
+			buildPhases = (
+				18ACDF601B1EE3D100C73539 /* Sources */,
+				18ACDF611B1EE3D100C73539 /* Frameworks */,
+				18ACDF621B1EE3D100C73539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18ACDF6A1B1EE3D100C73539 /* PBXTargetDependency */,
+			);
+			name = PhoneMeetingTests;
+			productName = PhoneMeetingTests;
+			productReference = 18ACDF641B1EE3D100C73539 /* PhoneMeetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18ACDF411B1EE3D100C73539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZhiYou;
+				TargetAttributes = {
+					18ACDF631B1EE3D100C73539 = {
+						TestTargetID = 18ACDF481B1EE3D100C73539;
+					};
+				};
+			};
+			buildConfigurationList = 18ACDF441B1EE3D100C73539 /* Build configuration list for PBXProject "PhoneMeeting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18ACDF401B1EE3D100C73539;
+			productRefGroup = 18ACDF4A1B1EE3D100C73539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18ACDF481B1EE3D100C73539 /* PhoneMeeting */,
+				18ACDF631B1EE3D100C73539 /* PhoneMeetingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18ACDF471B1EE3D100C73539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ACDF571B1EE3D100C73539 /* InfoPlist.strings in Resources */,
+				18ACDF5F1B1EE3D100C73539 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ACDF621B1EE3D100C73539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ACDF701B1EE3D100C73539 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18ACDF451B1EE3D100C73539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ACDF591B1EE3D100C73539 /* main.m in Sources */,
+				18ACDF5D1B1EE3D100C73539 /* ZYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ACDF601B1EE3D100C73539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ACDF721B1EE3D100C73539 /* PhoneMeetingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18ACDF6A1B1EE3D100C73539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18ACDF481B1EE3D100C73539 /* PhoneMeeting */;
+			targetProxy = 18ACDF691B1EE3D100C73539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18ACDF551B1EE3D100C73539 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18ACDF561B1EE3D100C73539 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18ACDF6E1B1EE3D100C73539 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18ACDF6F1B1EE3D100C73539 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18ACDF731B1EE3D100C73539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18ACDF741B1EE3D100C73539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18ACDF761B1EE3D100C73539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneMeeting/PhoneMeeting-Prefix.pch";
+				INFOPLIST_FILE = "PhoneMeeting/PhoneMeeting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18ACDF771B1EE3D100C73539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneMeeting/PhoneMeeting-Prefix.pch";
+				INFOPLIST_FILE = "PhoneMeeting/PhoneMeeting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18ACDF791B1EE3D100C73539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneMeeting.app/PhoneMeeting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneMeeting/PhoneMeeting-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhoneMeetingTests/PhoneMeetingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18ACDF7A1B1EE3D100C73539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneMeeting.app/PhoneMeeting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneMeeting/PhoneMeeting-Prefix.pch";
+				INFOPLIST_FILE = "PhoneMeetingTests/PhoneMeetingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18ACDF441B1EE3D100C73539 /* Build configuration list for PBXProject "PhoneMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ACDF731B1EE3D100C73539 /* Debug */,
+				18ACDF741B1EE3D100C73539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18ACDF751B1EE3D100C73539 /* Build configuration list for PBXNativeTarget "PhoneMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ACDF761B1EE3D100C73539 /* Debug */,
+				18ACDF771B1EE3D100C73539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18ACDF781B1EE3D100C73539 /* Build configuration list for PBXNativeTarget "PhoneMeetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ACDF791B1EE3D100C73539 /* Debug */,
+				18ACDF7A1B1EE3D100C73539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18ACDF411B1EE3D100C73539 /* Project object */;
+}
