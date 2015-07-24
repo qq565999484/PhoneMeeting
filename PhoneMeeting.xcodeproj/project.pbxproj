@@ -7,27 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187174A61B253FF800DDD797 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871749F1B253FF800DDD797 /* FMDatabase.m */; };
-		187174A71B253FF800DDD797 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187174A11B253FF800DDD797 /* FMDatabaseAdditions.m */; };
-		187174A81B253FF800DDD797 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 187174A41B253FF800DDD797 /* FMResultSet.m */; };
-		187174A91B253FF800DDD797 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 187174A51B253FF800DDD797 /* LICENSE.txt */; };
-		187174AB1B25401A00DDD797 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 187174AA1B25401A00DDD797 /* libsqlite3.0.dylib */; };
-		1877935D1B2699AE00D90EB4 /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877935C1B2699AE00D90EB4 /* CustomIOS7AlertView.m */; };
-		187793631B26C23700D90EB4 /* ZYPersonObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 187793621B26C23700D90EB4 /* ZYPersonObj.m */; };
-		187793661B26C74400D90EB4 /* ZYHistoryMeetingObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 187793651B26C74400D90EB4 /* ZYHistoryMeetingObj.m */; };
-		1877936A1B26E12000D90EB4 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 187793691B26E12000D90EB4 /* database.sqlite */; };
-		1877936D1B26E24900D90EB4 /* ZYHistoryMeetingMemberObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877936C1B26E24900D90EB4 /* ZYHistoryMeetingMemberObj.m */; };
-		187793711B26EA6A00D90EB4 /* ZYAppointSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877936F1B26EA6A00D90EB4 /* ZYAppointSettingViewController.m */; };
-		187793721B26EA6A00D90EB4 /* ZYAppointSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187793701B26EA6A00D90EB4 /* ZYAppointSettingViewController.xib */; };
-		188741691B21A22F00960BC3 /* ZYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 188741681B21A22F00960BC3 /* ZYTools.m */; };
-		189785631B25871600FF7BA0 /* ZYRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189785611B25871600FF7BA0 /* ZYRegisterViewController.m */; };
-		189785641B25871600FF7BA0 /* ZYRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189785621B25871600FF7BA0 /* ZYRegisterViewController.xib */; };
-		189785681B25872C00FF7BA0 /* ZYSystemSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189785661B25872C00FF7BA0 /* ZYSystemSettingViewController.m */; };
-		189785691B25872C00FF7BA0 /* ZYSystemSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189785671B25872C00FF7BA0 /* ZYSystemSettingViewController.xib */; };
-		1897856D1B25873F00FF7BA0 /* ZYMoreServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897856B1B25873F00FF7BA0 /* ZYMoreServiceViewController.m */; };
-		1897856E1B25873F00FF7BA0 /* ZYMoreServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1897856C1B25873F00FF7BA0 /* ZYMoreServiceViewController.xib */; };
-		189785711B2587A000FF7BA0 /* ZYUserBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189785701B2587A000FF7BA0 /* ZYUserBaseViewController.m */; };
-		189785741B25AF1B00FF7BA0 /* ZYUserTableObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 189785731B25AF1B00FF7BA0 /* ZYUserTableObj.m */; };
 		18ACDF4D1B1EE3D100C73539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF4C1B1EE3D100C73539 /* Foundation.framework */; };
 		18ACDF4F1B1EE3D100C73539 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF4E1B1EE3D100C73539 /* CoreGraphics.framework */; };
 		18ACDF511B1EE3D100C73539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF501B1EE3D100C73539 /* UIKit.framework */; };
@@ -40,43 +19,6 @@
 		18ACDF681B1EE3D100C73539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ACDF501B1EE3D100C73539 /* UIKit.framework */; };
 		18ACDF701B1EE3D100C73539 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF6E1B1EE3D100C73539 /* InfoPlist.strings */; };
 		18ACDF721B1EE3D100C73539 /* PhoneMeetingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACDF711B1EE3D100C73539 /* PhoneMeetingTests.m */; };
-		18ACDF851B1EE46E00C73539 /* ZYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACDF831B1EE46E00C73539 /* ZYBaseViewController.m */; };
-		18ACDF8A1B1EE48D00C73539 /* ZYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACDF881B1EE48D00C73539 /* ZYHomeViewController.m */; };
-		18ACDFA31B1EE4F900C73539 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF8E1B1EE4F900C73539 /* 001.png */; };
-		18ACDFA41B1EE4F900C73539 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF8F1B1EE4F900C73539 /* 002.png */; };
-		18ACDFA51B1EE4F900C73539 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF901B1EE4F900C73539 /* 003.png */; };
-		18ACDFA61B1EE4F900C73539 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF911B1EE4F900C73539 /* 004.png */; };
-		18ACDFA71B1EE4F900C73539 /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF921B1EE4F900C73539 /* 005.png */; };
-		18ACDFA81B1EE4F900C73539 /* 006.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF931B1EE4F900C73539 /* 006.png */; };
-		18ACDFA91B1EE4F900C73539 /* baitiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF941B1EE4F900C73539 /* baitiao.png */; };
-		18ACDFAA1B1EE4F900C73539 /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF951B1EE4F900C73539 /* bg3.png */; };
-		18ACDFAB1B1EE4F900C73539 /* bg4-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF961B1EE4F900C73539 /* bg4-2.png */; };
-		18ACDFAC1B1EE4F900C73539 /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF971B1EE4F900C73539 /* bg4.png */; };
-		18ACDFAD1B1EE4F900C73539 /* biaotop.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF981B1EE4F900C73539 /* biaotop.png */; };
-		18ACDFAE1B1EE4F900C73539 /* dbTipBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF991B1EE4F900C73539 /* dbTipBg.png */; };
-		18ACDFAF1B1EE4F900C73539 /* huiyizhuti.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF9A1B1EE4F900C73539 /* huiyizhuti.png */; };
-		18ACDFB01B1EE4F900C73539 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF9B1B1EE4F900C73539 /* Icon.png */; };
-		18ACDFB11B1EE4F900C73539 /* ipadbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF9C1B1EE4F900C73539 /* ipadbg.jpg */; };
-		18ACDFB21B1EE4F900C73539 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF9D1B1EE4F900C73539 /* logo.png */; };
-		18ACDFB31B1EE4F900C73539 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF9E1B1EE4F900C73539 /* logo2.png */; };
-		18ACDFB41B1EE4F900C73539 /* nvbg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDF9F1B1EE4F900C73539 /* nvbg2.png */; };
-		18ACDFB51B1EE4F900C73539 /* qunzuhuiyi.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDFA01B1EE4F900C73539 /* qunzuhuiyi.png */; };
-		18ACDFB61B1EE4F900C73539 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDFA11B1EE4F900C73539 /* t2.png */; };
-		18ACDFB71B1EE4F900C73539 /* window.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ACDFA21B1EE4F900C73539 /* window.png */; };
-		18ACE0471B1F088400C73539 /* ZYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18ACE0491B1F088400C73539 /* ZYHomeViewController.xib */; };
-		18C0C2D31B2039C400AA89F2 /* ZYAppointmentMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C2D11B2039C400AA89F2 /* ZYAppointmentMeetingViewController.m */; };
-		18C0C2D41B2039C400AA89F2 /* ZYAppointmentMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C2D21B2039C400AA89F2 /* ZYAppointmentMeetingViewController.xib */; };
-		18C0C2D81B2039D300AA89F2 /* ZYGroupMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C2D61B2039D300AA89F2 /* ZYGroupMeetingViewController.m */; };
-		18C0C2D91B2039D300AA89F2 /* ZYGroupMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C2D71B2039D300AA89F2 /* ZYGroupMeetingViewController.xib */; };
-		18C0C2DD1B2039E300AA89F2 /* ZYHistoryMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C2DB1B2039E300AA89F2 /* ZYHistoryMeetingViewController.m */; };
-		18C0C2DE1B2039E300AA89F2 /* ZYHistoryMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C2DC1B2039E300AA89F2 /* ZYHistoryMeetingViewController.xib */; };
-		18C0C2E21B2039F400AA89F2 /* ZYUserHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C2E01B2039F400AA89F2 /* ZYUserHelpViewController.m */; };
-		18C0C2E31B2039F400AA89F2 /* ZYUserHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C2E11B2039F400AA89F2 /* ZYUserHelpViewController.xib */; };
-		18C0C2ED1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C2EB1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.m */; };
-		18C0C2EE1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C2EC1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.xib */; };
-		18C0C2F21B203C1C00AA89F2 /* ZYSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C2F11B203C1C00AA89F2 /* ZYSuperViewController.m */; };
-		18C0C2F71B203E6200AA89F2 /* ZYUserSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C2F51B203E6200AA89F2 /* ZYUserSettingViewController.m */; };
-		18C0C2F81B203E6200AA89F2 /* ZYUserSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C2F61B203E6200AA89F2 /* ZYUserSettingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,42 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1871749E1B253FF800DDD797 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		1871749F1B253FF800DDD797 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		187174A01B253FF800DDD797 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		187174A11B253FF800DDD797 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		187174A21B253FF800DDD797 /* FMDatabaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseHeader.h; sourceTree = "<group>"; };
-		187174A31B253FF800DDD797 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		187174A41B253FF800DDD797 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		187174A51B253FF800DDD797 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		187174AA1B25401A00DDD797 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		1877935B1B2699AE00D90EB4 /* CustomIOS7AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOS7AlertView.h; sourceTree = "<group>"; };
-		1877935C1B2699AE00D90EB4 /* CustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOS7AlertView.m; sourceTree = "<group>"; };
-		187793611B26C23700D90EB4 /* ZYPersonObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPersonObj.h; sourceTree = "<group>"; };
-		187793621B26C23700D90EB4 /* ZYPersonObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPersonObj.m; sourceTree = "<group>"; };
-		187793641B26C74400D90EB4 /* ZYHistoryMeetingObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHistoryMeetingObj.h; sourceTree = "<group>"; };
-		187793651B26C74400D90EB4 /* ZYHistoryMeetingObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHistoryMeetingObj.m; sourceTree = "<group>"; };
-		187793691B26E12000D90EB4 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
-		1877936B1B26E24900D90EB4 /* ZYHistoryMeetingMemberObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHistoryMeetingMemberObj.h; sourceTree = "<group>"; };
-		1877936C1B26E24900D90EB4 /* ZYHistoryMeetingMemberObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHistoryMeetingMemberObj.m; sourceTree = "<group>"; };
-		1877936E1B26EA6A00D90EB4 /* ZYAppointSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAppointSettingViewController.h; sourceTree = "<group>"; };
-		1877936F1B26EA6A00D90EB4 /* ZYAppointSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAppointSettingViewController.m; sourceTree = "<group>"; };
-		187793701B26EA6A00D90EB4 /* ZYAppointSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYAppointSettingViewController.xib; sourceTree = "<group>"; };
-		188741671B21A22F00960BC3 /* ZYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTools.h; sourceTree = "<group>"; };
-		188741681B21A22F00960BC3 /* ZYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTools.m; sourceTree = "<group>"; };
-		189785601B25871600FF7BA0 /* ZYRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRegisterViewController.h; sourceTree = "<group>"; };
-		189785611B25871600FF7BA0 /* ZYRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRegisterViewController.m; sourceTree = "<group>"; };
-		189785621B25871600FF7BA0 /* ZYRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYRegisterViewController.xib; sourceTree = "<group>"; };
-		189785651B25872C00FF7BA0 /* ZYSystemSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSystemSettingViewController.h; sourceTree = "<group>"; };
-		189785661B25872C00FF7BA0 /* ZYSystemSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSystemSettingViewController.m; sourceTree = "<group>"; };
-		189785671B25872C00FF7BA0 /* ZYSystemSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYSystemSettingViewController.xib; sourceTree = "<group>"; };
-		1897856A1B25873F00FF7BA0 /* ZYMoreServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMoreServiceViewController.h; sourceTree = "<group>"; };
-		1897856B1B25873F00FF7BA0 /* ZYMoreServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMoreServiceViewController.m; sourceTree = "<group>"; };
-		1897856C1B25873F00FF7BA0 /* ZYMoreServiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYMoreServiceViewController.xib; sourceTree = "<group>"; };
-		1897856F1B2587A000FF7BA0 /* ZYUserBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUserBaseViewController.h; sourceTree = "<group>"; };
-		189785701B2587A000FF7BA0 /* ZYUserBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYUserBaseViewController.m; sourceTree = "<group>"; };
-		189785721B25AF1B00FF7BA0 /* ZYUserTableObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUserTableObj.h; sourceTree = "<group>"; };
-		189785731B25AF1B00FF7BA0 /* ZYUserTableObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYUserTableObj.m; sourceTree = "<group>"; };
 		18ACDF491B1EE3D100C73539 /* PhoneMeeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneMeeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ACDF4C1B1EE3D100C73539 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18ACDF4E1B1EE3D100C73539 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -142,52 +48,6 @@
 		18ACDF6D1B1EE3D100C73539 /* PhoneMeetingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneMeetingTests-Info.plist"; sourceTree = "<group>"; };
 		18ACDF6F1B1EE3D100C73539 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18ACDF711B1EE3D100C73539 /* PhoneMeetingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneMeetingTests.m; sourceTree = "<group>"; };
-		18ACDF821B1EE46E00C73539 /* ZYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseViewController.h; sourceTree = "<group>"; };
-		18ACDF831B1EE46E00C73539 /* ZYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseViewController.m; sourceTree = "<group>"; };
-		18ACDF871B1EE48D00C73539 /* ZYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeViewController.h; sourceTree = "<group>"; };
-		18ACDF881B1EE48D00C73539 /* ZYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeViewController.m; sourceTree = "<group>"; };
-		18ACDF8E1B1EE4F900C73539 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
-		18ACDF8F1B1EE4F900C73539 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
-		18ACDF901B1EE4F900C73539 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
-		18ACDF911B1EE4F900C73539 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
-		18ACDF921B1EE4F900C73539 /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
-		18ACDF931B1EE4F900C73539 /* 006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 006.png; sourceTree = "<group>"; };
-		18ACDF941B1EE4F900C73539 /* baitiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baitiao.png; sourceTree = "<group>"; };
-		18ACDF951B1EE4F900C73539 /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
-		18ACDF961B1EE4F900C73539 /* bg4-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg4-2.png"; sourceTree = "<group>"; };
-		18ACDF971B1EE4F900C73539 /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
-		18ACDF981B1EE4F900C73539 /* biaotop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biaotop.png; sourceTree = "<group>"; };
-		18ACDF991B1EE4F900C73539 /* dbTipBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dbTipBg.png; sourceTree = "<group>"; };
-		18ACDF9A1B1EE4F900C73539 /* huiyizhuti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huiyizhuti.png; sourceTree = "<group>"; };
-		18ACDF9B1B1EE4F900C73539 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		18ACDF9C1B1EE4F900C73539 /* ipadbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipadbg.jpg; sourceTree = "<group>"; };
-		18ACDF9D1B1EE4F900C73539 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		18ACDF9E1B1EE4F900C73539 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
-		18ACDF9F1B1EE4F900C73539 /* nvbg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nvbg2.png; sourceTree = "<group>"; };
-		18ACDFA01B1EE4F900C73539 /* qunzuhuiyi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qunzuhuiyi.png; sourceTree = "<group>"; };
-		18ACDFA11B1EE4F900C73539 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t2.png; sourceTree = "<group>"; };
-		18ACDFA21B1EE4F900C73539 /* window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window.png; sourceTree = "<group>"; };
-		18ACE0481B1F088400C73539 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZYHomeViewController.xib; sourceTree = "<group>"; };
-		18C0C2D01B2039C400AA89F2 /* ZYAppointmentMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAppointmentMeetingViewController.h; sourceTree = "<group>"; };
-		18C0C2D11B2039C400AA89F2 /* ZYAppointmentMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAppointmentMeetingViewController.m; sourceTree = "<group>"; };
-		18C0C2D21B2039C400AA89F2 /* ZYAppointmentMeetingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYAppointmentMeetingViewController.xib; sourceTree = "<group>"; };
-		18C0C2D51B2039D300AA89F2 /* ZYGroupMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGroupMeetingViewController.h; sourceTree = "<group>"; };
-		18C0C2D61B2039D300AA89F2 /* ZYGroupMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGroupMeetingViewController.m; sourceTree = "<group>"; };
-		18C0C2D71B2039D300AA89F2 /* ZYGroupMeetingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGroupMeetingViewController.xib; sourceTree = "<group>"; };
-		18C0C2DA1B2039E300AA89F2 /* ZYHistoryMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHistoryMeetingViewController.h; sourceTree = "<group>"; };
-		18C0C2DB1B2039E300AA89F2 /* ZYHistoryMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHistoryMeetingViewController.m; sourceTree = "<group>"; };
-		18C0C2DC1B2039E300AA89F2 /* ZYHistoryMeetingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYHistoryMeetingViewController.xib; sourceTree = "<group>"; };
-		18C0C2DF1B2039F400AA89F2 /* ZYUserHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUserHelpViewController.h; sourceTree = "<group>"; };
-		18C0C2E01B2039F400AA89F2 /* ZYUserHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYUserHelpViewController.m; sourceTree = "<group>"; };
-		18C0C2E11B2039F400AA89F2 /* ZYUserHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYUserHelpViewController.xib; sourceTree = "<group>"; };
-		18C0C2EA1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYImmediatelyMeetingViewController.h; sourceTree = "<group>"; };
-		18C0C2EB1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYImmediatelyMeetingViewController.m; sourceTree = "<group>"; };
-		18C0C2EC1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYImmediatelyMeetingViewController.xib; sourceTree = "<group>"; };
-		18C0C2F01B203C1C00AA89F2 /* ZYSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSuperViewController.h; sourceTree = "<group>"; };
-		18C0C2F11B203C1C00AA89F2 /* ZYSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSuperViewController.m; sourceTree = "<group>"; };
-		18C0C2F41B203E6200AA89F2 /* ZYUserSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUserSettingViewController.h; sourceTree = "<group>"; };
-		18C0C2F51B203E6200AA89F2 /* ZYUserSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYUserSettingViewController.m; sourceTree = "<group>"; };
-		18C0C2F61B203E6200AA89F2 /* ZYUserSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYUserSettingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187174AB1B25401A00DDD797 /* libsqlite3.0.dylib in Frameworks */,
 				18ACDF4F1B1EE3D100C73539 /* CoreGraphics.framework in Frameworks */,
 				18ACDF511B1EE3D100C73539 /* UIKit.framework in Frameworks */,
 				18ACDF4D1B1EE3D100C73539 /* Foundation.framework in Frameworks */,
@@ -215,39 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1871749D1B253FF800DDD797 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				1871749E1B253FF800DDD797 /* FMDatabase.h */,
-				1871749F1B253FF800DDD797 /* FMDatabase.m */,
-				187174A01B253FF800DDD797 /* FMDatabaseAdditions.h */,
-				187174A11B253FF800DDD797 /* FMDatabaseAdditions.m */,
-				187174A21B253FF800DDD797 /* FMDatabaseHeader.h */,
-				187174A31B253FF800DDD797 /* FMResultSet.h */,
-				187174A41B253FF800DDD797 /* FMResultSet.m */,
-				187174A51B253FF800DDD797 /* LICENSE.txt */,
-			);
-			path = FMDB;
-			sourceTree = "<group>";
-		};
-		188741661B21A22500960BC3 /* 工具类 */ = {
-			isa = PBXGroup;
-			children = (
-				1877935B1B2699AE00D90EB4 /* CustomIOS7AlertView.h */,
-				1877935C1B2699AE00D90EB4 /* CustomIOS7AlertView.m */,
-				1871749D1B253FF800DDD797 /* FMDB */,
-				188741671B21A22F00960BC3 /* ZYTools.h */,
-				188741681B21A22F00960BC3 /* ZYTools.m */,
-				189785721B25AF1B00FF7BA0 /* ZYUserTableObj.h */,
-				189785731B25AF1B00FF7BA0 /* ZYUserTableObj.m */,
-				187793641B26C74400D90EB4 /* ZYHistoryMeetingObj.h */,
-				187793651B26C74400D90EB4 /* ZYHistoryMeetingObj.m */,
-				1877936B1B26E24900D90EB4 /* ZYHistoryMeetingMemberObj.h */,
-				1877936C1B26E24900D90EB4 /* ZYHistoryMeetingMemberObj.m */,
-			);
-			path = "工具类";
-			sourceTree = "<group>";
-		};
 		18ACDF401B1EE3D100C73539 = {
 			isa = PBXGroup;
 			children = (
@@ -270,7 +96,6 @@
 		18ACDF4B1B1EE3D100C73539 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				187174AA1B25401A00DDD797 /* libsqlite3.0.dylib */,
 				18ACDF4C1B1EE3D100C73539 /* Foundation.framework */,
 				18ACDF4E1B1EE3D100C73539 /* CoreGraphics.framework */,
 				18ACDF501B1EE3D100C73539 /* UIKit.framework */,
@@ -282,17 +107,6 @@
 		18ACDF521B1EE3D100C73539 /* PhoneMeeting */ = {
 			isa = PBXGroup;
 			children = (
-				188741661B21A22500960BC3 /* 工具类 */,
-				18ACDF8C1B1EE4EF00C73539 /* Resource */,
-				18ACDF811B1EE46000C73539 /* BaseViewController */,
-				18ACDF7B1B1EE40D00C73539 /* 主页面 */,
-				18C0C2EF1B203C1200AA89F2 /* SuperViewController */,
-				18C0C2E91B203B3500AA89F2 /* 即时会议 */,
-				18C0C2CC1B2038F600AA89F2 /* 预约会议 */,
-				18C0C2CD1B20390500AA89F2 /* 群组会议 */,
-				18C0C2CE1B20391100AA89F2 /* 历史会议 */,
-				18C0C2CF1B20392800AA89F2 /* 用户帮助 */,
-				18C0C2F31B203E4F00AA89F2 /* 用户设置 */,
 				18ACDF5B1B1EE3D100C73539 /* ZYAppDelegate.h */,
 				18ACDF5C1B1EE3D100C73539 /* ZYAppDelegate.m */,
 				18ACDF5E1B1EE3D100C73539 /* Images.xcassets */,
@@ -328,147 +142,6 @@
 				18ACDF6E1B1EE3D100C73539 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		18ACDF7B1B1EE40D00C73539 /* 主页面 */ = {
-			isa = PBXGroup;
-			children = (
-				18ACDF871B1EE48D00C73539 /* ZYHomeViewController.h */,
-				18ACDF881B1EE48D00C73539 /* ZYHomeViewController.m */,
-				18ACE0491B1F088400C73539 /* ZYHomeViewController.xib */,
-			);
-			path = "主页面";
-			sourceTree = "<group>";
-		};
-		18ACDF811B1EE46000C73539 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				18ACDF821B1EE46E00C73539 /* ZYBaseViewController.h */,
-				18ACDF831B1EE46E00C73539 /* ZYBaseViewController.m */,
-			);
-			path = BaseViewController;
-			sourceTree = "<group>";
-		};
-		18ACDF8C1B1EE4EF00C73539 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				187793691B26E12000D90EB4 /* database.sqlite */,
-				18ACDF8D1B1EE4F900C73539 /* image */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		18ACDF8D1B1EE4F900C73539 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				18ACDF8E1B1EE4F900C73539 /* 001.png */,
-				18ACDF8F1B1EE4F900C73539 /* 002.png */,
-				18ACDF901B1EE4F900C73539 /* 003.png */,
-				18ACDF911B1EE4F900C73539 /* 004.png */,
-				18ACDF921B1EE4F900C73539 /* 005.png */,
-				18ACDF931B1EE4F900C73539 /* 006.png */,
-				18ACDF941B1EE4F900C73539 /* baitiao.png */,
-				18ACDF951B1EE4F900C73539 /* bg3.png */,
-				18ACDF961B1EE4F900C73539 /* bg4-2.png */,
-				18ACDF971B1EE4F900C73539 /* bg4.png */,
-				18ACDF981B1EE4F900C73539 /* biaotop.png */,
-				18ACDF991B1EE4F900C73539 /* dbTipBg.png */,
-				18ACDF9A1B1EE4F900C73539 /* huiyizhuti.png */,
-				18ACDF9B1B1EE4F900C73539 /* Icon.png */,
-				18ACDF9C1B1EE4F900C73539 /* ipadbg.jpg */,
-				18ACDF9D1B1EE4F900C73539 /* logo.png */,
-				18ACDF9E1B1EE4F900C73539 /* logo2.png */,
-				18ACDF9F1B1EE4F900C73539 /* nvbg2.png */,
-				18ACDFA01B1EE4F900C73539 /* qunzuhuiyi.png */,
-				18ACDFA11B1EE4F900C73539 /* t2.png */,
-				18ACDFA21B1EE4F900C73539 /* window.png */,
-			);
-			path = image;
-			sourceTree = "<group>";
-		};
-		18C0C2CC1B2038F600AA89F2 /* 预约会议 */ = {
-			isa = PBXGroup;
-			children = (
-				18C0C2D01B2039C400AA89F2 /* ZYAppointmentMeetingViewController.h */,
-				18C0C2D11B2039C400AA89F2 /* ZYAppointmentMeetingViewController.m */,
-				18C0C2D21B2039C400AA89F2 /* ZYAppointmentMeetingViewController.xib */,
-				1877936E1B26EA6A00D90EB4 /* ZYAppointSettingViewController.h */,
-				1877936F1B26EA6A00D90EB4 /* ZYAppointSettingViewController.m */,
-				187793701B26EA6A00D90EB4 /* ZYAppointSettingViewController.xib */,
-			);
-			path = "预约会议";
-			sourceTree = "<group>";
-		};
-		18C0C2CD1B20390500AA89F2 /* 群组会议 */ = {
-			isa = PBXGroup;
-			children = (
-				18C0C2D51B2039D300AA89F2 /* ZYGroupMeetingViewController.h */,
-				18C0C2D61B2039D300AA89F2 /* ZYGroupMeetingViewController.m */,
-				18C0C2D71B2039D300AA89F2 /* ZYGroupMeetingViewController.xib */,
-			);
-			path = "群组会议";
-			sourceTree = "<group>";
-		};
-		18C0C2CE1B20391100AA89F2 /* 历史会议 */ = {
-			isa = PBXGroup;
-			children = (
-				18C0C2DA1B2039E300AA89F2 /* ZYHistoryMeetingViewController.h */,
-				18C0C2DB1B2039E300AA89F2 /* ZYHistoryMeetingViewController.m */,
-				18C0C2DC1B2039E300AA89F2 /* ZYHistoryMeetingViewController.xib */,
-			);
-			path = "历史会议";
-			sourceTree = "<group>";
-		};
-		18C0C2CF1B20392800AA89F2 /* 用户帮助 */ = {
-			isa = PBXGroup;
-			children = (
-				18C0C2DF1B2039F400AA89F2 /* ZYUserHelpViewController.h */,
-				18C0C2E01B2039F400AA89F2 /* ZYUserHelpViewController.m */,
-				18C0C2E11B2039F400AA89F2 /* ZYUserHelpViewController.xib */,
-			);
-			path = "用户帮助";
-			sourceTree = "<group>";
-		};
-		18C0C2E91B203B3500AA89F2 /* 即时会议 */ = {
-			isa = PBXGroup;
-			children = (
-				18C0C2EA1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.h */,
-				18C0C2EB1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.m */,
-				18C0C2EC1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.xib */,
-				187793611B26C23700D90EB4 /* ZYPersonObj.h */,
-				187793621B26C23700D90EB4 /* ZYPersonObj.m */,
-			);
-			path = "即时会议";
-			sourceTree = "<group>";
-		};
-		18C0C2EF1B203C1200AA89F2 /* SuperViewController */ = {
-			isa = PBXGroup;
-			children = (
-				18C0C2F01B203C1C00AA89F2 /* ZYSuperViewController.h */,
-				18C0C2F11B203C1C00AA89F2 /* ZYSuperViewController.m */,
-			);
-			path = SuperViewController;
-			sourceTree = "<group>";
-		};
-		18C0C2F31B203E4F00AA89F2 /* 用户设置 */ = {
-			isa = PBXGroup;
-			children = (
-				1897856F1B2587A000FF7BA0 /* ZYUserBaseViewController.h */,
-				189785701B2587A000FF7BA0 /* ZYUserBaseViewController.m */,
-				18C0C2F41B203E6200AA89F2 /* ZYUserSettingViewController.h */,
-				18C0C2F51B203E6200AA89F2 /* ZYUserSettingViewController.m */,
-				18C0C2F61B203E6200AA89F2 /* ZYUserSettingViewController.xib */,
-				189785601B25871600FF7BA0 /* ZYRegisterViewController.h */,
-				189785611B25871600FF7BA0 /* ZYRegisterViewController.m */,
-				189785621B25871600FF7BA0 /* ZYRegisterViewController.xib */,
-				189785651B25872C00FF7BA0 /* ZYSystemSettingViewController.h */,
-				189785661B25872C00FF7BA0 /* ZYSystemSettingViewController.m */,
-				189785671B25872C00FF7BA0 /* ZYSystemSettingViewController.xib */,
-				1897856A1B25873F00FF7BA0 /* ZYMoreServiceViewController.h */,
-				1897856B1B25873F00FF7BA0 /* ZYMoreServiceViewController.m */,
-				1897856C1B25873F00FF7BA0 /* ZYMoreServiceViewController.xib */,
-			);
-			path = "用户设置";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,42 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18ACDFB01B1EE4F900C73539 /* Icon.png in Resources */,
-				18ACDFA41B1EE4F900C73539 /* 002.png in Resources */,
-				18ACDFAC1B1EE4F900C73539 /* bg4.png in Resources */,
-				18ACDFAD1B1EE4F900C73539 /* biaotop.png in Resources */,
-				18ACDFA51B1EE4F900C73539 /* 003.png in Resources */,
-				18ACE0471B1F088400C73539 /* ZYHomeViewController.xib in Resources */,
-				18ACDFA71B1EE4F900C73539 /* 005.png in Resources */,
-				18ACDFB61B1EE4F900C73539 /* t2.png in Resources */,
-				18ACDFAF1B1EE4F900C73539 /* huiyizhuti.png in Resources */,
-				18ACDFA81B1EE4F900C73539 /* 006.png in Resources */,
-				189785641B25871600FF7BA0 /* ZYRegisterViewController.xib in Resources */,
-				18ACDFB41B1EE4F900C73539 /* nvbg2.png in Resources */,
-				18ACDFAB1B1EE4F900C73539 /* bg4-2.png in Resources */,
-				18ACDFB31B1EE4F900C73539 /* logo2.png in Resources */,
 				18ACDF571B1EE3D100C73539 /* InfoPlist.strings in Resources */,
-				18C0C2E31B2039F400AA89F2 /* ZYUserHelpViewController.xib in Resources */,
-				18ACDFAA1B1EE4F900C73539 /* bg3.png in Resources */,
-				18ACDFAE1B1EE4F900C73539 /* dbTipBg.png in Resources */,
-				18C0C2F81B203E6200AA89F2 /* ZYUserSettingViewController.xib in Resources */,
-				18C0C2D41B2039C400AA89F2 /* ZYAppointmentMeetingViewController.xib in Resources */,
 				18ACDF5F1B1EE3D100C73539 /* Images.xcassets in Resources */,
-				18ACDFB11B1EE4F900C73539 /* ipadbg.jpg in Resources */,
-				187793721B26EA6A00D90EB4 /* ZYAppointSettingViewController.xib in Resources */,
-				1877936A1B26E12000D90EB4 /* database.sqlite in Resources */,
-				18C0C2EE1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.xib in Resources */,
-				18ACDFB21B1EE4F900C73539 /* logo.png in Resources */,
-				18ACDFA91B1EE4F900C73539 /* baitiao.png in Resources */,
-				18C0C2DE1B2039E300AA89F2 /* ZYHistoryMeetingViewController.xib in Resources */,
-				18ACDFB51B1EE4F900C73539 /* qunzuhuiyi.png in Resources */,
-				18ACDFB71B1EE4F900C73539 /* window.png in Resources */,
-				187174A91B253FF800DDD797 /* LICENSE.txt in Resources */,
-				18ACDFA61B1EE4F900C73539 /* 004.png in Resources */,
-				189785691B25872C00FF7BA0 /* ZYSystemSettingViewController.xib in Resources */,
-				18C0C2D91B2039D300AA89F2 /* ZYGroupMeetingViewController.xib in Resources */,
-				1897856E1B25873F00FF7BA0 /* ZYMoreServiceViewController.xib in Resources */,
-				18ACDFA31B1EE4F900C73539 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,31 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188741691B21A22F00960BC3 /* ZYTools.m in Sources */,
-				18C0C2DD1B2039E300AA89F2 /* ZYHistoryMeetingViewController.m in Sources */,
-				187174A61B253FF800DDD797 /* FMDatabase.m in Sources */,
-				187793661B26C74400D90EB4 /* ZYHistoryMeetingObj.m in Sources */,
-				18C0C2D81B2039D300AA89F2 /* ZYGroupMeetingViewController.m in Sources */,
-				18ACDF8A1B1EE48D00C73539 /* ZYHomeViewController.m in Sources */,
-				187793631B26C23700D90EB4 /* ZYPersonObj.m in Sources */,
-				189785681B25872C00FF7BA0 /* ZYSystemSettingViewController.m in Sources */,
-				187174A71B253FF800DDD797 /* FMDatabaseAdditions.m in Sources */,
-				18C0C2F21B203C1C00AA89F2 /* ZYSuperViewController.m in Sources */,
-				18C0C2F71B203E6200AA89F2 /* ZYUserSettingViewController.m in Sources */,
-				189785711B2587A000FF7BA0 /* ZYUserBaseViewController.m in Sources */,
-				18ACDF851B1EE46E00C73539 /* ZYBaseViewController.m in Sources */,
-				187174A81B253FF800DDD797 /* FMResultSet.m in Sources */,
-				1877935D1B2699AE00D90EB4 /* CustomIOS7AlertView.m in Sources */,
-				1877936D1B26E24900D90EB4 /* ZYHistoryMeetingMemberObj.m in Sources */,
 				18ACDF591B1EE3D100C73539 /* main.m in Sources */,
-				18C0C2E21B2039F400AA89F2 /* ZYUserHelpViewController.m in Sources */,
-				189785631B25871600FF7BA0 /* ZYRegisterViewController.m in Sources */,
 				18ACDF5D1B1EE3D100C73539 /* ZYAppDelegate.m in Sources */,
-				189785741B25AF1B00FF7BA0 /* ZYUserTableObj.m in Sources */,
-				187793711B26EA6A00D90EB4 /* ZYAppointSettingViewController.m in Sources */,
-				18C0C2ED1B203B4000AA89F2 /* ZYImmediatelyMeetingViewController.m in Sources */,
-				1897856D1B25873F00FF7BA0 /* ZYMoreServiceViewController.m in Sources */,
-				18C0C2D31B2039C400AA89F2 /* ZYAppointmentMeetingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,14 +278,6 @@
 				18ACDF6F1B1EE3D100C73539 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		18ACE0491B1F088400C73539 /* ZYHomeViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18ACE0481B1F088400C73539 /* en */,
-			);
-			name = ZYHomeViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -752,7 +360,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhoneMeeting/PhoneMeeting-Prefix.pch";
 				INFOPLIST_FILE = "PhoneMeeting/PhoneMeeting-Info.plist";
@@ -766,7 +373,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhoneMeeting/PhoneMeeting-Prefix.pch";
 				INFOPLIST_FILE = "PhoneMeeting/PhoneMeeting-Info.plist";
@@ -834,7 +440,6 @@
 				18ACDF771B1EE3D100C73539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		18ACDF781B1EE3D100C73539 /* Build configuration list for PBXNativeTarget "PhoneMeetingTests" */ = {
 			isa = XCConfigurationList;
@@ -843,7 +448,6 @@
 				18ACDF7A1B1EE3D100C73539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
