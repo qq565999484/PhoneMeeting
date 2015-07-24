@@ -7,6 +7,9 @@
 //
 
 #import "ZYAppDelegate.h"
+#import "ZYHomeViewController.h"
+#import "ZYTools.h"
+//#import "ZYBaseViewController.h"
 
 @implementation ZYAppDelegate
 
@@ -14,6 +17,18 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    NSLog(@"%@",[ZYTools getDBFilePath]);
+    [ZYTools copyDataBaseToSandBox];
+    
+    
+   
+    
+    ZYHomeViewController *homeVC = [[ZYHomeViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    nav.navigationBarHidden = YES;
+    self.window.rootViewController = nav;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
